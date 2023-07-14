@@ -677,8 +677,7 @@ border-radius: 4px;
 border: 1px solid  #FFF;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 background-color: var(--navy-blue);
-}
-input{color: #FFF;
+color: #FFF;
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
@@ -723,12 +722,33 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 margin-bottom: 16px;
 }
-.svg-name{
-    display: flex;
-}
+
 .name-icon{
+    position: absolute;
+    left: 38px;
+    top: -38px;
+}
+.form{
     display: flex;
     position: absolute;
-    top: 141px;
-    left: 40px;
+    flex-direction: column;
+}
+.input-form{
+    padding:0 38px;
+    width: 360px;
+height: 40px;
+
+ 
+}
+.label-name{
+    color:  #8E8F99;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+letter-spacing: 0.48px;
+}
+.label-form{
+    margin-left: 24px;
 }
