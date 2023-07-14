@@ -653,102 +653,52 @@ margin-bottom: 16px;
 .that-page{
     color: #404BBF;
 }
-.label-email{
-    color: #FFFFFF;
-    font-size: 16px;
-    font-family: Roboto;
-    font-style: normal;
+.subscribe-text{
+    margin-bottom: 16px;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #ffffff;
 }
-.footer-section-two{
-    margin-right: 80px;
-}
-.email{
+.subscribe-email{
     display: flex;
-    flex-direction: row;
-    margin-top: 16px;
+    gap: 24px;
 }
-.email-row{
+.subscribe-email-input{
     width: 264px;
-height: 40px;
-border-radius: 4px;
-border: 1px solid  #FFF;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-background-color: var(--navy-blue);
-color: #FFF;
-    font-family: Roboto;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; 
-    letter-spacing: 0.48px;
-    margin-right: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff;
+}
+.subscribe-email-input::placeholder{
+    color: #ffffff;
 }
 .submit-email-button{
-    display: inline-flex;
-padding: 8px 24px;
-justify-content: center;
-align-items: center;
-gap: 16px;
-border: none;
-border-radius: 4px;
-background: #4D5AE5;
-color:  #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; 
-letter-spacing: 0.64px;
-}
-.label-email{
-    margin-bottom: 16px;
-}
-.window-text{
-    margin: 72px 24px 0 24px ;
-    width: 360px;
-    color: #2E2F42;
-text-align: center;
-
-/* Body Medium */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
-margin-bottom: 16px;
-}
-
-.name-icon{
-    position: absolute;
-    left: 38px;
-    top: -38px;
-}
-.form{
+    min-width: 165px;
+    height: 40px;
     display: flex;
-    position: absolute;
-    flex-direction: column;
-}
-.input-form{
-    padding:0 38px;
-    width: 360px;
-height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
 
- 
 }
-.label-name{
-    color:  #8E8F99;
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 14px; /* 116.667% */
-letter-spacing: 0.48px;
-}
-.label-form{
-    margin-left: 24px;
+.subscribe-svg{
+    margin-left: 16px;
 }
