@@ -137,7 +137,7 @@ h1{
 .second-section{
     padding: 120px 0;
 }
-.visualy-hidden{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
