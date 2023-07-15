@@ -48,7 +48,8 @@ h1{
     --slate: #434455;
     --white-color: #f4f4fd;
     --modal-color:   #8e8f99;
-    --project-blue: #404bbf;
+    --project-purple: #404bbf;
+    --project-blue: #4d5ae5;
 }
 .nav{
     color: #2e2f42;
@@ -797,9 +798,31 @@ margin-bottom: 16px;
     align-items: center;
     justify-content: center; 
     fill: transparent;
+    margin-right: 8px;
 }
-.checbox:checked .user-privacy-label-span{
-    background-color: var(--project-blue);
+input[type="checkbox"] .user-privacy-label-span{
+    background-color: var(--project-purple);
     fill: var(--white-color);
     border: none;
+}
+.policy-link{
+    color: var(--project-blue);
+
+}
+.send-button{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: var(--project-blue);
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: center;
 }
