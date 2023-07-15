@@ -47,7 +47,8 @@ h1{
     --navy-blue: #2e2f42;
     --slate: #434455;
     --white-color: #f4f4fd;
-    --modal-color:   #8e8f99
+    --modal-color:   #8e8f99;
+    --project-blue: #404bbf;
 }
 .nav{
     color: #2e2f42;
@@ -796,4 +797,9 @@ margin-bottom: 16px;
     align-items: center;
     justify-content: center; 
     fill: transparent;
+}
+.checbox:checked .user-privacy-label-span{
+    background-color: var(--project-blue);
+    fill: var(--white-color);
+    border: none;
 }
