@@ -800,7 +800,7 @@ margin-bottom: 16px;
     fill: transparent;
     margin-right: 8px;
 }
-.checkbox:checked .user-privacy-label-span{
+input[type="checkbox"]:checked + .user-privacy-label > .user-privacy-label-span{
     background-color: var(--project-purple);
     fill: var(--white-color);
     border: none;
